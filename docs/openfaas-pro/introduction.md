@@ -110,6 +110,7 @@ Durability and reliability
 | GDPR                  | Sensitive data printed in logs | Sensitive data omitted from logs | As per Pro | 
 | Grafana Dashboard      | N/a             | Supplied with advanced metrics in private repository | As per Pro |
 | Secure isolation with Kata containers or gVisor      | N/a             | Supported via a runtimeClass | As per Pro |
+| NATS JetStream | Not supported | Queue system backed by JetStream | As per Pro |
 
 Event-brokers
 
