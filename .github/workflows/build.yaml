@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: actuated-4cpu-8gb
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6

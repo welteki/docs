@@ -12,7 +12,7 @@ concurrency:
 jobs:
   build:
     if: github.ref == 'refs/heads/master'
-    runs-on: actuated-4cpu-8gb
+    runs-on: ubuntu-latest
     permissions:
       contents: read
     steps:
@@ -31,7 +31,7 @@ jobs:
 
   publish:
     needs: build
-    runs-on: actuated-4cpu-8gb
+    runs-on: ubuntu-latest
     permissions:
       actions: read
       pages: write
